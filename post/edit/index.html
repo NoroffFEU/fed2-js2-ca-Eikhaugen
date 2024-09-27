@@ -9,10 +9,52 @@
   </head>
 
   <body>
-    <h1>Edit Post</h1>
-
+    <div id="navbar">
+      <img src="/images/noroff-logo.png" alt="Noroff Logo" />
+      <h1>Home</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/profile/">My Profile</a>
+          </li>
+          <li>
+            <a href="/auth/login/">Login</a>
+          </li>
+          <li>
+            <a href="/auth/register/">Register</a>
+          </li>
+          <li>
+            <a href="/post/create/">Create Post</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="logout-btn">Logout</button>
+    </div>
+  <main>
     <form name="editPost">
-      <button>Edit Post</button>
+      <div>
+        <label for="title">Title</label>
+        <input id="title" type="text" name="title">
+      </div>
+      <div>
+        <label for="post">Post</label>
+        <input id="post" type="text" name="post">
+      </div>
+      <div>
+        <label for="image">Image URL</label>
+        <input id="image" type="text" name="image">
+      </div>
+      <div>
+        <label for="alt">Image Alt Text</label>
+        <input id="alt" type="text" name="alt">
+      </div>
+      <div>
+        <label for="tags">Tags</label>
+        <input id="tags" type="text" name="tags">
+      </div>
+      <button type="submit">Edit Post</button>
     </form>
+    
+  </main>
   </body>
 </html>
