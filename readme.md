@@ -44,7 +44,7 @@ git clone https://github.com/NoroffFEU/fed2-js2-ca-Eikhaugen
 ### Running
 Navigate to the project directory and install the dependencies:
 ```bash
-cd fed2-js2-ca
+cd fed2-js2-ca-Eikhaugen
 npm install
 ```
 Start the development server
